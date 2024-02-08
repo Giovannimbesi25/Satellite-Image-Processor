@@ -19,12 +19,12 @@ cd satelliteImageSender
 docker build -t satellite-image-sender .
 ```
 
-### Creazione Network Docker
+### Creazione Docker Network 
 ```bash
 docker network create satellite_network
 ```
 
-### Run dei container Docker
+### Avvio Container
 ```bash
 docker run --rm --name rabbitmq --network=satellite_network -p 5672:5672 -p 15672:15672 rabbitmq
 ```
