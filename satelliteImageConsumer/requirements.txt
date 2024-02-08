@@ -1,0 +1,6 @@
+numpy>=1.23.2
+opencv_python>=4.6.0.66
+pika==1.2.0
+tabulate
+matplotlib
+rich
